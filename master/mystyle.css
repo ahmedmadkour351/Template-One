@@ -7,5 +7,60 @@ body {
   font-family: 'Cairo', sans-serif;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Work Sans', sans-serif;
+  text-transform: capitalize;
+  /* start global rules*/
+  /*small screen*/
+  /*medium screen*/
+  /*large screen*/
+  /*End global rules */
+  /*start header*/
+  /*end header*/
+}
+
+@media (min-width: 768px) {
+  body {
+    width: 750;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    width: 1170px;
+  }
+}
+
+body header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header nav img {
+  width: 60px;
+}
+
+body header nav div {
+  position: relative;
+}
+
+body header nav div span {
+  width: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 /*# sourceMappingURL=mystyle.css.map */

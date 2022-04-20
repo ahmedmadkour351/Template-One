@@ -8,4 +8,47 @@ body {
     font-family: 'Cairo', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    text-transform: capitalize;
+
+    /* start global rules*/
+    /*small screen*/
+    @media(min-width:768px) {
+        width: 750;
+    }
+
+    /*medium screen*/
+    @media (min-width:992px) {
+        width: 970px;
+    }
+
+    /*large screen*/
+    @media (min-width:1200px) {
+        width: 1170px;
+    }
+
+    /*End global rules */
+    /*start header*/
+    header {
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            img {
+                width: 60px;
+            }
+
+            div {
+                position: relative;
+
+                span {
+                    width: 30px;
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+            }
+        }
+    }
+
+    /*end header*/
 }
